@@ -665,6 +665,7 @@ img {
 }
 
 .cinema-overlay-text {
+  position: absolute;
   text-align: center;
   opacity: 0;
   transform: translateY(25px);
