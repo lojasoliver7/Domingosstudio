@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+html_content = """<!DOCTYPE html>
 <html class="dark" lang="pt-BR" style="scroll-behavior: smooth;">
 <head>
     <meta charset="utf-8">
@@ -267,91 +267,72 @@
                     </div>
                     
                     <div class="grid grid-cols-1 lg:grid-cols-12 gap-space-lg">
-                        <!-- Main Large Feature Card -->
-                        <div class="lg:col-span-8 rounded-xl bg-surface-container-low overflow-hidden flex flex-col group transition-all duration-300 hover:bg-surface-container shadow-lg"><div class="relative w-full h-[380px] overflow-hidden bg-surface-container-lowest">
-                        <img alt="Criação de Landing Pages de Alta Conversão" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuChXV6F2T2zN085ws7-jjZWE1ydNz-SH_qbMp15phDpN7H0oBxsnYaySF8VwEYHwe7gdT8_JLK5mbwoSPtNwnrCre3dUwo9Em2e8DwdbXz0qXZH4Wf15SF0V0s9bJTVIwBBTmnu5rv_1O3sjE3CZdWxMRWPr135zTTMWsXVmZgYefulpjADqwMtF0Yvwv9hQ5g8Fb5axD5tf4z_FkLelief-TI7hjVFXLj9shR1LjDC">
-                        <div class="absolute top-4 left-4 flex gap-2"><span class="px-space-sm py-1 rounded-full bg-background-primary/80 backdrop-blur-md font-label-sm text-label-sm text-text-primary border border-surface-container-highest">Alta Conversão</span><span class="px-space-sm py-1 rounded-full bg-surface-container-highest/90 backdrop-blur-md font-label-sm text-label-sm text-text-primary font-semibold">Destaque</span></div>
-                        <div class="absolute bottom-4 right-4 px-3 py-1.5 rounded-lg bg-surface-container-highest/80 backdrop-blur-md flex items-center gap-2"><span class="material-symbols-outlined text-[16px] text-text-primary">trending_up</span><span class="font-label-sm text-label-sm text-text-primary font-bold">+340% Conversão</span></div>
+                        <div class="lg:col-span-8 rounded-xl bg-surface-container-low overflow-hidden flex flex-col group transition-all duration-300 hover:bg-surface-container shadow-lg">
+                            <div class="relative w-full h-[380px] overflow-hidden bg-surface-container-lowest">
+                                <img alt="Site Institucional" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" src="img/hero-web.jpg">
+                                <div class="absolute top-4 left-4 flex gap-2"><span class="px-space-sm py-1 rounded-full bg-background-primary/80 backdrop-blur-md font-label-sm text-label-sm text-text-primary border border-surface-container-highest">Destaque</span></div>
+                            </div>
+                            <div class="p-space-lg flex flex-col justify-between flex-1">
+                                <div>
+                                    <div class="flex items-center justify-between mb-space-xs">
+                                        <h3 class="font-headline-md text-headline-md text-text-primary">Site Institucional</h3>
+                                        <span class="material-symbols-outlined text-outline group-hover:text-secondary-container transition-colors">arrow_outward</span>
+                                    </div>
+                                    <p class="font-body-md text-body-md text-text-secondary mb-space-md">
+                                        Páginas de alta conversão estruturadas com design persuasivo e carregamento ultrarrápido.
+                                    </p>
+                                </div>
+                            </div>
                         </div>
-                        <div class="p-space-lg flex flex-col justify-between flex-1">
-                        <div>
-                        <div class="flex items-center justify-between mb-space-xs">
-                        <h3 class="font-headline-md text-headline-md text-text-primary">Criação de Landing Pages</h3>
-                        <span class="material-symbols-outlined text-outline group-hover:text-secondary-container transition-colors">arrow_outward</span>
+
+                        <div class="lg:col-span-4 rounded-xl bg-surface-container-low overflow-hidden flex flex-col group transition-all duration-300 hover:bg-surface-container shadow-lg">
+                            <div class="relative w-full h-[220px] overflow-hidden bg-surface-container-lowest">
+                                <img alt="Aplicativo Mobile" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" src="img/mobile-app.jpg">
+                            </div>
+                            <div class="p-space-lg flex flex-col justify-between flex-1">
+                                <div>
+                                    <div class="flex items-center justify-between mb-space-xs">
+                                        <h3 class="font-headline-sm text-headline-sm text-text-primary">Aplicativo Mobile</h3>
+                                        <span class="material-symbols-outlined text-outline group-hover:text-secondary-container transition-colors">arrow_outward</span>
+                                    </div>
+                                    <p class="font-body-sm text-body-sm text-text-secondary mb-space-md">
+                                        Desenvolvimento de aplicativos móveis focado em usabilidade refinada.
+                                    </p>
+                                </div>
+                            </div>
                         </div>
-                        <p class="font-body-md text-body-md text-text-secondary mb-space-md">
-                        Páginas de alta conversão estruturadas com design persuasivo, carregamento ultrarrápido e arquitetura orientada para transformar tráfego em leads e vendas.
-                        </p>
+
+                        <div class="lg:col-span-4 rounded-xl bg-surface-container-low overflow-hidden flex flex-col group transition-all duration-300 hover:bg-surface-container shadow-lg">
+                            <div class="relative w-full h-[220px] overflow-hidden bg-surface-container-lowest">
+                                <img alt="Design & Branding" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" src="img/design-process.jpg">
+                            </div>
+                            <div class="p-space-lg flex flex-col justify-between flex-1">
+                                <div>
+                                    <h3 class="font-headline-sm text-headline-sm text-text-primary mb-space-xs">Design & Branding</h3>
+                                    <p class="font-body-sm text-body-sm text-text-secondary mb-space-md">
+                                        Identidade visual marcante para destacar sua empresa.
+                                    </p>
+                                </div>
+                            </div>
                         </div>
-                        <div class="flex flex-wrap gap-space-xs pt-space-xs">
-                        <span class="px-2.5 py-1 rounded-md bg-surface-container font-body-sm text-body-sm text-on-surface-variant">Design Persuasivo</span>
-                        <span class="px-2.5 py-1 rounded-md bg-surface-container font-body-sm text-body-sm text-on-surface-variant">Copywriting &amp; UX</span>
-                        <span class="px-2.5 py-1 rounded-md bg-surface-container font-body-sm text-body-sm text-on-surface-variant">Otimização de Conversão</span>
+
+                        <div class="lg:col-span-8 rounded-xl bg-surface-container-low overflow-hidden flex flex-col md:flex-row group transition-all duration-300 hover:bg-surface-container shadow-lg">
+                            <div class="relative w-full md:w-1/2 h-64 md:h-auto overflow-hidden bg-surface-container-lowest">
+                                <img alt="Plataforma Digital" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" src="img/digital-transform.jpg">
+                            </div>
+                            <div class="p-space-lg w-full md:w-1/2 flex flex-col justify-between">
+                                <div>
+                                    <div class="inline-flex items-center gap-2 px-2.5 py-0.5 rounded-md bg-surface-container font-label-sm text-label-sm text-text-secondary mb-2">Transformação Digital</div>
+                                    <h3 class="font-headline-md text-headline-md text-text-primary mb-space-xs">Plataforma Digital</h3>
+                                    <p class="font-body-md text-body-md text-text-secondary mb-space-md">
+                                        Soluções escaláveis e complexas desenhadas para resolver problemas do mundo real.
+                                    </p>
+                                </div>
+                                <div class="flex items-center justify-between pt-space-sm">
+                                    <span class="material-symbols-outlined text-outline group-hover:text-text-primary transition-colors">arrow_forward</span>
+                                </div>
+                            </div>
                         </div>
-                        </div></div>
-                        <!-- Secondary Side Card 1 -->
-                        <div class="lg:col-span-4 rounded-xl bg-surface-container-low overflow-hidden flex flex-col group transition-all duration-300 hover:bg-surface-container shadow-lg"><div class="relative w-full h-[220px] overflow-hidden bg-surface-container-lowest"><img alt="Criação de Sites Institucionais e Corporativos" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCAyGyxk32urA9H7zLTvstHo1y8eicMdNtbd0UjBPa8M21hZoj13nTyAszOK2QXYCg3zn3tQ4qt-x4rflTvaCw0rW6g-DgCdg_O53YrJuMg6XaiVGPTJzL5-HLlBEuDWtOGB6XNk8wVDxDRWUhye_VFOMRpxeQj3YM9KdCdCajkVsTwYFRBrfewzlauiP7p2fU_N1wP8AjC-HE99XQ6Kok8gbkhYTV4fq8Ol1AjaQJj"><div class="absolute top-4 left-4"><span class="px-space-sm py-1 rounded-full bg-background-primary/80 backdrop-blur-md font-label-sm text-label-sm text-text-primary border border-surface-container-highest">Institucional &amp; Corporativo</span></div><div class="absolute bottom-4 left-4 px-3 py-1.5 rounded-lg bg-surface-container-highest/80 backdrop-blur-md"><span class="font-label-sm text-label-sm text-text-primary font-semibold">Alta Performance</span></div></div>
-                        <div class="p-space-lg flex flex-col justify-between flex-1">
-                        <div>
-                        <div class="flex items-center justify-between mb-space-xs">
-                        <h3 class="font-headline-sm text-headline-sm text-text-primary">Criação de Sites</h3>
-                        <span class="material-symbols-outlined text-outline group-hover:text-secondary-container transition-colors">arrow_outward</span>
-                        </div>
-                        <p class="font-body-sm text-body-sm text-text-secondary mb-space-md">
-                        Desenvolvimento de sites corporativos e portais de alta performance, posicionando sua marca com autoridade imediata, SEO avançado e experiência interativa.
-                        </p>
-                        </div>
-                        <div class="flex flex-wrap gap-space-xs">
-                        <span class="px-2.5 py-1 rounded-md bg-surface-container font-body-sm text-body-sm text-on-surface-variant">Sites Institucionais</span>
-                        <span class="px-2.5 py-1 rounded-md bg-surface-container font-body-sm text-body-sm text-on-surface-variant">Performance &amp; SEO</span>
-                        <span class="px-2.5 py-1 rounded-md bg-surface-container font-body-sm text-body-sm text-on-surface-variant">Design Exclusivo</span>
-                        </div>
-                        </div></div>
-                        <!-- Secondary Bottom Card 2 -->
-                        <div class="lg:col-span-4 rounded-xl bg-surface-container-low overflow-hidden flex flex-col group transition-all duration-300 hover:bg-surface-container shadow-lg"><div class="relative w-full h-[220px] overflow-hidden bg-surface-container-lowest">
-                        <img alt="Criação de Aplicativos Móveis iOS e Android" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuASGLuZrSXSC3saLWkNe3xm1ATOjoiN4j-9-xynk7Vq87_ay43W5DVNvfLX6qws4c24SVDTAojnIm5rV_cC5sq72sD2D7PzpzmMmfpsDXbdtGpyFKtoHg4VZRX2-B6BvJ3M0UCT_otmRcw-HKctr8PL5AWEU2fIizi5q5UvMsjdtmV84dTEYM1wSwsDI-azUE5SDd-i_P3BVZkC1GXA2Lp11ZwVgfAFbiRob4DNpikP">
-                        <div class="absolute top-4 left-4"><span class="px-space-sm py-1 rounded-full bg-background-primary/80 backdrop-blur-md font-label-sm text-label-sm text-text-primary border border-surface-container-highest">Mobile iOS &amp; Android</span></div>
-                        <div class="absolute bottom-4 right-4 px-3 py-1.5 rounded-lg bg-surface-container-highest/80 backdrop-blur-md">
-                        <span class="font-label-sm text-label-sm text-text-primary font-semibold">4.9 ★ Avaliação</span>
-                        </div>
-                        </div>
-                        <div class="p-space-lg flex flex-col justify-between flex-1">
-                        <div>
-                        <h3 class="font-headline-sm text-headline-sm text-text-primary mb-space-xs">Criação de Aplicativos</h3>
-                        <p class="font-body-sm text-body-sm text-text-secondary mb-space-md">
-                        Aplicativos móveis nativos e híbridos com interfaces ergonômicas, microinterações fluidas e usabilidade refinada para encantar usuários em qualquer dispositivo.
-                        </p>
-                        </div>
-                        <div class="flex flex-wrap gap-space-xs">
-                        <span class="px-2.5 py-1 rounded-md bg-surface-container font-body-sm text-body-sm text-on-surface-variant">Mobile iOS / Android</span>
-                        <span class="px-2.5 py-1 rounded-md bg-surface-container font-body-sm text-body-sm text-on-surface-variant">UI/UX Mobile</span>
-                        <span class="px-2.5 py-1 rounded-md bg-surface-container font-body-sm text-body-sm text-on-surface-variant">Integrações Fluidas</span>
-                        </div>
-                        </div></div>
-                        <!-- Secondary Bottom Card 3 -->
-                        <div class="lg:col-span-8 rounded-xl bg-surface-container-low overflow-hidden flex flex-col md:flex-row group transition-all duration-300 hover:bg-surface-container shadow-lg"><div class="relative w-full md:w-1/2 h-64 md:h-auto overflow-hidden bg-surface-container-lowest">
-                        <img alt="Criação de E-commerces e Lojas Virtuais" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA4k36_IadL_DquhjoBrqrD8O3ztIW_5kYAygt1uvImqut6YR_y8XIj2zGpCafNWHVE4EuXgObyEI0_KOZ5kBB68zrJIIgs6lPkYz8Dt1DP-2m2l0cxPO5GOmfwX_4tz98AHbVpiCTEb3p5WAZKo8CUAMJF0myGVLb5cAuu0KnVfKkaEUOXsFXk029fGWl6XioNkvwVA4qCWeWsS8xWbpuX2tZI78i_1PUvgwBJuwIN">
-                        <div class="absolute top-4 left-4">
-                        <span class="px-space-sm py-1 rounded-full bg-background-primary/80 backdrop-blur-md font-label-sm text-label-sm text-secondary">Lojas Virtuais &amp; Vendas</span>
-                        </div>
-                        </div>
-                        <div class="p-space-lg w-full md:w-1/2 flex flex-col justify-between">
-                        <div>
-                        <div class="inline-flex items-center gap-2 px-2.5 py-0.5 rounded-md bg-surface-container font-label-sm text-label-sm text-text-secondary mb-2">Lojas Virtuais &amp; Vendas</div>
-                        <h3 class="font-headline-md text-headline-md text-text-primary mb-space-xs">Criação de E-commerces</h3>
-                        <p class="font-body-md text-body-md text-text-secondary mb-space-md">
-                        Lojas virtuais premium, seguras e personalizadas com checkout sem atrito, alta taxa de conversão e estrutura escalável para alavancar seu faturamento.
-                        </p>
-                        </div>
-                        <div class="flex items-center justify-between pt-space-sm">
-                        <div class="flex flex-wrap gap-2">
-                        <span class="px-2.5 py-1 rounded-md bg-surface-container font-body-sm text-body-sm text-on-surface-variant">Lojas Virtuais</span>
-                        <span class="px-2.5 py-1 rounded-md bg-surface-container font-body-sm text-body-sm text-on-surface-variant">Checkout Transparente</span>
-                        <span class="px-2.5 py-1 rounded-md bg-surface-container font-body-sm text-body-sm text-on-surface-variant">Escalabilidade</span>
-                        </div>
-                        <span class="material-symbols-outlined text-outline group-hover:text-text-primary transition-colors">arrow_forward</span>
-                        </div>
-                        </div></div>
                     </div>
                 </div>
             </section>
@@ -503,3 +484,9 @@
     </a>
 </body>
 </html>
+"""
+
+with open(r"c:\Users\Sec Info\.gemini\antigravity\scratch\site-allyson\Domingosstudio\index.html", "w", encoding="utf-8") as f:
+    f.write(html_content)
+
+print("index.html successfully updated.")

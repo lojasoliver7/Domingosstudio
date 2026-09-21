@@ -1,0 +1,277 @@
+<!DOCTYPE html><html class="dark" lang="en" style=""><head><meta charset="utf-8"><meta content="width=device-width, initial-scale=1.0" name="viewport"><meta content="web_standard" name="shell-type"><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet"><link href="https://fonts.googleapis.com" rel="preconnect"><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"><link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700&amp;family=Poppins:wght@400;500&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = {
+    darkMode: "class",
+    theme: {
+      extend: {
+        "colors": {
+          "on-primary-container": "#f8f7ff",
+          "tertiary": "#ffb59d",
+          "surface-container": "#1d1f28",
+          "secondary": "#a5e7ff",
+          "error": "#ffb4ab",
+          "on-primary-fixed-variant": "#003fa4",
+          "on-error-container": "#ffdad6",
+          "primary-fixed": "#dae1ff",
+          "on-primary-fixed": "#001849",
+          "background-secondary": "#080e1e",
+          "surface-container-low": "#191b24",
+          "inverse-on-surface": "#2e303a",
+          "secondary-fixed": "#b6ebff",
+          "surface": "#10131c",
+          "surface-bright": "#363943",
+          "on-tertiary-fixed-variant": "#832600",
+          "on-secondary-container": "#00566a",
+          "inverse-primary": "#0054d6",
+          "error-container": "#93000a",
+          "surface-tint": "#b3c5ff",
+          "tertiary-fixed": "#ffdbd0",
+          "surface-container-highest": "#32343e",
+          "surface-dim": "#10131c",
+          "background-primary": "#030712",
+          "on-secondary-fixed": "#001f28",
+          "on-tertiary-fixed": "#390c00",
+          "on-secondary-fixed-variant": "#004e60",
+          "on-error": "#690005",
+          "on-background": "#e1e2ee",
+          "outline": "#8c90a1",
+          "secondary-fixed-dim": "#47d6ff",
+          "text-primary": "#ffffff",
+          "on-surface": "#e1e2ee",
+          "surface-container-lowest": "#0b0e16",
+          "tertiary-fixed-dim": "#ffb59d",
+          "on-surface-variant": "#c2c6d8",
+          "text-secondary": "#94a3b8",
+          "primary-fixed-dim": "#b3c5ff",
+          "surface-variant": "#32343e",
+          "outline-variant": "#424656",
+          "on-tertiary": "#5d1900",
+          "tertiary-container": "#cc4204",
+          "secondary-container": "#00d2ff",
+          "on-primary": "#002b75",
+          "on-secondary": "#003543",
+          "background": "#10131c",
+          "primary-container": "#0066ff",
+          "on-tertiary-container": "#fff6f4",
+          "surface-container-high": "#272a33",
+          "primary": "#b3c5ff",
+          "inverse-surface": "#e1e2ee"
+        },
+        "borderRadius": {
+          "DEFAULT": "0.25rem",
+          "lg": "0.5rem",
+          "xl": "0.75rem",
+          "full": "9999px"
+        },
+        "spacing": {
+          "space-lg": "1.5rem",
+          "margin": "1.5rem",
+          "space-xs": "0.25rem",
+          "space-md": "1rem",
+          "gutter": "1rem",
+          "space-sm": "0.5rem",
+          "space-xl": "2rem"
+        },
+        "fontFamily": {
+          "label-md": [
+            "Plus Jakarta Sans"
+          ],
+          "body-md": [
+            "Poppins"
+          ],
+          "body-lg": [
+            "Poppins"
+          ],
+          "body-sm": [
+            "Poppins"
+          ],
+          "headline-md": [
+            "Plus Jakarta Sans"
+          ],
+          "label-sm": [
+            "Plus Jakarta Sans"
+          ],
+          "headline-lg": [
+            "Plus Jakarta Sans"
+          ],
+          "headline-sm": [
+            "Plus Jakarta Sans"
+          ]
+        },
+        "fontSize": {
+          "label-md": [
+            "14px",
+            {
+              "lineHeight": "20px",
+              "fontWeight": "500"
+            }
+          ],
+          "body-md": [
+            "14px",
+            {
+              "lineHeight": "20px",
+              "fontWeight": "400"
+            }
+          ],
+          "body-lg": [
+            "16px",
+            {
+              "lineHeight": "24px",
+              "fontWeight": "400"
+            }
+          ],
+          "body-sm": [
+            "12px",
+            {
+              "lineHeight": "16px",
+              "fontWeight": "400"
+            }
+          ],
+          "headline-md": [
+            "24px",
+            {
+              "lineHeight": "32px",
+              "letterSpacing": "-0.01em",
+              "fontWeight": "600"
+            }
+          ],
+          "label-sm": [
+            "12px",
+            {
+              "lineHeight": "16px",
+              "fontWeight": "500"
+            }
+          ],
+          "headline-lg": [
+            "32px",
+            {
+              "lineHeight": "40px",
+              "letterSpacing": "-0.02em",
+              "fontWeight": "700"
+            }
+          ],
+          "headline-sm": [
+            "20px",
+            {
+              "lineHeight": "28px",
+              "fontWeight": "600"
+            }
+          ]
+        }
+      },
+    },
+  }</script></head><body class="bg-background-primary font-body-md text-body-md text-on-surface antialiased selection:bg-primary-container selection:text-on-primary-container"><header class="fixed top-0 left-0 right-0 w-full z-50 bg-background-primary/80 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-20 w-full px-space-lg lg:px-space-xl flex items-center justify-between"><div class="flex items-center gap-space-md"><a href="#" class="inline-flex items-center gap-2.5 group"><div class="w-8 h-8 rounded bg-black border border-surface-container-highest flex items-center justify-center shadow-sm flex-shrink-0"><span class="text-text-primary font-bold text-[15px] font-headline-sm leading-none select-none">D</span></div><div class="flex flex-col justify-center leading-none"><div class="flex items-center gap-1 font-headline-sm text-[13px] font-bold tracking-wider uppercase text-text-primary"><span class="tracking-normal">DOMINGOS</span><span class="text-outline font-semibold">//</span><span class="">STUDIO</span></div><span class="text-[8.5px] font-medium tracking-[0.22em] text-outline uppercase mt-0.5">DIGITAL ARCHITECTURE</span></div></a><div class="hidden xl:inline-flex items-center gap-space-xs px-space-sm py-space-xs rounded-full bg-surface-container-low border border-surface-container-highest"><span class="w-2 h-2 rounded-full bg-text-secondary animate-pulse"></span><span class="font-label-sm text-label-sm text-text-secondary tracking-wide uppercase">Edição Studio</span></div></div><nav class="hidden lg:flex items-center gap-space-sm" data-active-classes="bg-surface-container-high text-on-surface font-label-md text-label-md rounded-lg"><a aria-current="page" class="px-space-md py-space-sm transition-colors bg-surface-container-high text-on-surface font-label-md text-label-md rounded-lg" data-path="services" href="#services">Serviços</a><a class="px-space-md py-space-sm font-label-md text-label-md text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-colors rounded-lg" data-path="work" href="#work">Projetos</a><a class="px-space-md py-space-sm font-label-md text-label-md text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-colors rounded-lg" data-path="disciplines" href="#disciplinas">Especialidades</a><a class="px-space-md py-space-sm font-label-md text-label-md text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-colors rounded-lg" data-path="testimonials" href="#depoimentos">Depoimentos</a></nav><div class="flex items-center gap-space-sm"><a href="#contact" class="hidden sm:inline-flex items-center gap-2 px-space-md py-2.5 rounded-lg bg-primary-container text-text-primary font-label-sm text-label-sm font-semibold hover:bg-primary hover:text-on-primary hover:scale-[1.02] shadow-[0_0_20px_rgba(0,102,255,0.35)] transition-all duration-300"><span class="w-1.5 h-1.5 rounded-full bg-secondary-container animate-ping"></span><span class="">Iniciar Projeto</span></a></div></div></header><main class="w-full pt-20 bg-background-primary min-h-screen"><div class="flex flex-col w-full overflow-hidden text-on-surface">
+<!-- ================= HERO SECTION ================= -->
+<section class="relative w-full px-space-lg lg:px-space-xl pt-space-xl pb-28 flex flex-col items-center justify-center text-center"><!-- Ambient backlights --><div class="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[350px] bg-gradient-to-tr from-primary-container/20 via-secondary-container/15 to-transparent blur-[120px] pointer-events-none rounded-full"></div><div class="absolute -top-10 right-10 w-72 h-72 bg-primary/10 blur-[90px] pointer-events-none rounded-full"></div><div class="relative z-10 max-w-5xl mx-auto flex flex-col items-center"><!-- Eyebrow Pill --><div class="inline-flex items-center gap-space-sm px-space-md py-1.5 rounded-full bg-surface-container-low border border-surface-container-highest shadow-sm mb-space-lg"><span class="w-2 h-2 rounded-full bg-text-primary"></span><span class="font-label-sm text-label-sm text-text-secondary tracking-wide">Disponível para novas parcerias de design e engenharia digital</span><span class="material-symbols-outlined text-text-secondary text-[16px]">arrow_forward</span></div><!-- Headline --><h1 class="font-headline-lg text-headline-lg md:text-[56px] md:leading-[1.1] tracking-tighter text-text-primary mb-space-md">Criamos produtos digitais que <span class="text-text-secondary">redefinem os padrões da indústria</span></h1><!-- Subheading --><p class="font-body-lg text-body-lg text-text-secondary max-w-2xl mb-space-xl">A Domingosstudio colabora com fundadores de empresas de alto crescimento e marcas líderes para construir experiências marcantes, interfaces de alta performance e sistemas de design de última geração.</p><!-- Dual CTAs --><div class="flex flex-col sm:flex-row items-center gap-space-md w-full sm:w-auto mb-16"><a class="w-full sm:w-auto inline-flex items-center justify-center gap-space-sm px-8 py-3.5 rounded-xl bg-primary-container text-text-primary font-label-md text-label-md font-semibold transition-all duration-300 shadow-[0_0_35px_rgba(0,102,255,0.45)] hover:bg-primary hover:text-on-primary hover:scale-[1.02]" href="#contact"><span class="">Agendar Reunião Inicial</span><span class="material-symbols-outlined text-[18px]">calendar_today</span></a><a class="w-full sm:w-auto inline-flex items-center justify-center gap-space-sm px-7 py-3.5 rounded-xl bg-surface-container-low border border-surface-container-highest text-text-primary font-label-md text-label-md transition-all duration-300 hover:bg-surface-container-high hover:text-text-primary" href="#work"><span class="">Explorar Nossos Projetos</span><span class="material-symbols-outlined text-text-secondary text-[18px]">arrow_outward</span></a></div><!-- Social Proof Logos --><div class="w-full flex flex-col items-center gap-space-md"><p class="font-label-sm text-label-sm uppercase tracking-widest text-outline">Confiado por fundadores apoiados por líderes globais</p><div class="flex flex-wrap items-center justify-center gap-8 md:gap-14 opacity-70"><div class="flex items-center gap-2 font-headline-sm text-headline-sm tracking-tighter text-text-primary"><span class="material-symbols-outlined text-[24px] text-outline">token</span><span class="">LINEAR</span></div><div class="flex items-center gap-2 font-headline-sm text-headline-sm tracking-tighter text-text-primary"><span class="material-symbols-outlined text-[24px] text-outline">change_history</span><span class="">▲ VERCEL</span></div><div class="flex items-center gap-2 font-headline-sm text-headline-sm tracking-tighter text-text-primary"><span class="material-symbols-outlined text-[24px] text-outline">bolt</span><span class="">SUPABASE</span></div><div class="flex items-center gap-2 font-headline-sm text-headline-sm tracking-tighter text-text-primary"><span class="material-symbols-outlined text-[24px] text-outline">terminal</span><span class="">RAYCAST</span></div><div class="flex items-center gap-2 font-headline-sm text-headline-sm tracking-tighter text-text-primary"><span class="material-symbols-outlined text-[24px] text-outline">credit_card</span><span class="">STRIPE</span></div></div></div></div></section>
+<!-- ================= SHOWCASE GRID (FEATURED WORK) ================= -->
+<section class="w-full px-space-lg lg:px-space-xl py-space-xl bg-background-secondary/60" id="work">
+<div class="max-w-7xl mx-auto">
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-space-xl gap-space-md"><div>
+<div class="inline-flex items-center gap-2 text-outline font-label-sm text-label-sm tracking-wider uppercase mb-space-xs"><span class="w-1.5 h-1.5 rounded-full bg-text-secondary"></span> PROJETOS &amp; SERVIÇOS</div>
+<h2 class="font-headline-lg text-headline-lg text-text-primary">Experiências digitais criadas para gerar resultados</h2>
+</div>
+<p class="font-body-md text-body-md text-text-secondary max-w-md">
+Uma seleção de sites, landing pages, aplicativos e e-commerces desenvolvidos com foco em alta performance, design autoral e conversão.
+</p></div>
+<!-- Bento Showcase Layout -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-lg">
+<!-- Main Large Feature Card -->
+<div class="lg:col-span-8 rounded-xl bg-surface-container-low overflow-hidden flex flex-col group transition-all duration-300 hover:bg-surface-container shadow-lg"><div class="relative w-full h-[380px] overflow-hidden bg-surface-container-lowest">
+<img alt="Criação de Landing Pages de Alta Conversão" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuChXV6F2T2zN085ws7-jjZWE1ydNz-SH_qbMp15phDpN7H0oBxsnYaySF8VwEYHwe7gdT8_JLK5mbwoSPtNwnrCre3dUwo9Em2e8DwdbXz0qXZH4Wf15SF0V0s9bJTVIwBBTmnu5rv_1O3sjE3CZdWxMRWPr135zTTMWsXVmZgYefulpjADqwMtF0Yvwv9hQ5g8Fb5axD5tf4z_FkLelief-TI7hjVFXLj9shR1LjDC">
+<div class="absolute top-4 left-4 flex gap-2"><span class="px-space-sm py-1 rounded-full bg-background-primary/80 backdrop-blur-md font-label-sm text-label-sm text-text-primary border border-surface-container-highest">Alta Conversão</span><span class="px-space-sm py-1 rounded-full bg-surface-container-highest/90 backdrop-blur-md font-label-sm text-label-sm text-text-primary font-semibold">Destaque</span></div>
+<div class="absolute bottom-4 right-4 px-3 py-1.5 rounded-lg bg-surface-container-highest/80 backdrop-blur-md flex items-center gap-2"><span class="material-symbols-outlined text-[16px] text-text-primary">trending_up</span><span class="font-label-sm text-label-sm text-text-primary font-bold">+340% Conversão</span></div>
+</div>
+<div class="p-space-lg flex flex-col justify-between flex-1">
+<div>
+<div class="flex items-center justify-between mb-space-xs">
+<h3 class="font-headline-md text-headline-md text-text-primary">Criação de Landing Pages</h3>
+<span class="material-symbols-outlined text-outline group-hover:text-secondary-container transition-colors">arrow_outward</span>
+</div>
+<p class="font-body-md text-body-md text-text-secondary mb-space-md">
+Páginas de alta conversão estruturadas com design persuasivo, carregamento ultrarrápido e arquitetura orientada para transformar tráfego em leads e vendas.
+</p>
+</div>
+<div class="flex flex-wrap gap-space-xs pt-space-xs">
+<span class="px-2.5 py-1 rounded-md bg-surface-container font-body-sm text-body-sm text-on-surface-variant">Design Persuasivo</span>
+<span class="px-2.5 py-1 rounded-md bg-surface-container font-body-sm text-body-sm text-on-surface-variant">Copywriting &amp; UX</span>
+<span class="px-2.5 py-1 rounded-md bg-surface-container font-body-sm text-body-sm text-on-surface-variant">Otimização de Conversão</span>
+</div>
+</div></div>
+<!-- Secondary Side Card 1 -->
+<div class="lg:col-span-4 rounded-xl bg-surface-container-low overflow-hidden flex flex-col group transition-all duration-300 hover:bg-surface-container shadow-lg"><div class="relative w-full h-[220px] overflow-hidden bg-surface-container-lowest"><img alt="Criação de Sites Institucionais e Corporativos" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCAyGyxk32urA9H7zLTvstHo1y8eicMdNtbd0UjBPa8M21hZoj13nTyAszOK2QXYCg3zn3tQ4qt-x4rflTvaCw0rW6g-DgCdg_O53YrJuMg6XaiVGPTJzL5-HLlBEuDWtOGB6XNk8wVDxDRWUhye_VFOMRpxeQj3YM9KdCdCajkVsTwYFRBrfewzlauiP7p2fU_N1wP8AjC-HE99XQ6Kok8gbkhYTV4fq8Ol1AjaQJj"><div class="absolute top-4 left-4"><span class="px-space-sm py-1 rounded-full bg-background-primary/80 backdrop-blur-md font-label-sm text-label-sm text-text-primary border border-surface-container-highest">Institucional &amp; Corporativo</span></div><div class="absolute bottom-4 left-4 px-3 py-1.5 rounded-lg bg-surface-container-highest/80 backdrop-blur-md"><span class="font-label-sm text-label-sm text-text-primary font-semibold">Alta Performance</span></div></div>
+<div class="p-space-lg flex flex-col justify-between flex-1">
+<div>
+<div class="flex items-center justify-between mb-space-xs">
+<h3 class="font-headline-sm text-headline-sm text-text-primary">Criação de Sites</h3>
+<span class="material-symbols-outlined text-outline group-hover:text-secondary-container transition-colors">arrow_outward</span>
+</div>
+<p class="font-body-sm text-body-sm text-text-secondary mb-space-md">
+Desenvolvimento de sites corporativos e portais de alta performance, posicionando sua marca com autoridade imediata, SEO avançado e experiência interativa.
+</p>
+</div>
+<div class="flex flex-wrap gap-space-xs">
+<span class="px-2.5 py-1 rounded-md bg-surface-container font-body-sm text-body-sm text-on-surface-variant">Sites Institucionais</span>
+<span class="px-2.5 py-1 rounded-md bg-surface-container font-body-sm text-body-sm text-on-surface-variant">Performance &amp; SEO</span>
+<span class="px-2.5 py-1 rounded-md bg-surface-container font-body-sm text-body-sm text-on-surface-variant">Design Exclusivo</span>
+</div>
+</div></div>
+<!-- Secondary Bottom Card 2 -->
+<div class="lg:col-span-4 rounded-xl bg-surface-container-low overflow-hidden flex flex-col group transition-all duration-300 hover:bg-surface-container shadow-lg"><div class="relative w-full h-[220px] overflow-hidden bg-surface-container-lowest">
+<img alt="Criação de Aplicativos Móveis iOS e Android" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuASGLuZrSXSC3saLWkNe3xm1ATOjoiN4j-9-xynk7Vq87_ay43W5DVNvfLX6qws4c24SVDTAojnIm5rV_cC5sq72sD2D7PzpzmMmfpsDXbdtGpyFKtoHg4VZRX2-B6BvJ3M0UCT_otmRcw-HKctr8PL5AWEU2fIizi5q5UvMsjdtmV84dTEYM1wSwsDI-azUE5SDd-i_P3BVZkC1GXA2Lp11ZwVgfAFbiRob4DNpikP">
+<div class="absolute top-4 left-4"><span class="px-space-sm py-1 rounded-full bg-background-primary/80 backdrop-blur-md font-label-sm text-label-sm text-text-primary border border-surface-container-highest">Mobile iOS &amp; Android</span></div>
+<div class="absolute bottom-4 right-4 px-3 py-1.5 rounded-lg bg-surface-container-highest/80 backdrop-blur-md">
+<span class="font-label-sm text-label-sm text-text-primary font-semibold">4.9 ★ Avaliação</span>
+</div>
+</div>
+<div class="p-space-lg flex flex-col justify-between flex-1">
+<div>
+<h3 class="font-headline-sm text-headline-sm text-text-primary mb-space-xs">Criação de Aplicativos</h3>
+<p class="font-body-sm text-body-sm text-text-secondary mb-space-md">
+Aplicativos móveis nativos e híbridos com interfaces ergonômicas, microinterações fluidas e usabilidade refinada para encantar usuários em qualquer dispositivo.
+</p>
+</div>
+<div class="flex flex-wrap gap-space-xs">
+<span class="px-2.5 py-1 rounded-md bg-surface-container font-body-sm text-body-sm text-on-surface-variant">Mobile iOS / Android</span>
+<span class="px-2.5 py-1 rounded-md bg-surface-container font-body-sm text-body-sm text-on-surface-variant">UI/UX Mobile</span>
+<span class="px-2.5 py-1 rounded-md bg-surface-container font-body-sm text-body-sm text-on-surface-variant">Integrações Fluidas</span>
+</div>
+</div></div>
+<!-- Secondary Bottom Card 3 -->
+<div class="lg:col-span-8 rounded-xl bg-surface-container-low overflow-hidden flex flex-col md:flex-row group transition-all duration-300 hover:bg-surface-container shadow-lg"><div class="relative w-full md:w-1/2 h-64 md:h-auto overflow-hidden bg-surface-container-lowest">
+<img alt="Criação de E-commerces e Lojas Virtuais" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA4k36_IadL_DquhjoBrqrD8O3ztIW_5kYAygt1uvImqut6YR_y8XIj2zGpCafNWHVE4EuXgObyEI0_KOZ5kBB68zrJIIgs6lPkYz8Dt1DP-2m2l0cxPO5GOmfwX_4tz98AHbVpiCTEb3p5WAZKo8CUAMJF0myGVLb5cAuu0KnVfKkaEUOXsFXk029fGWl6XioNkvwVA4qCWeWsS8xWbpuX2tZI78i_1PUvgwBJuwIN">
+<div class="absolute top-4 left-4">
+<span class="px-space-sm py-1 rounded-full bg-background-primary/80 backdrop-blur-md font-label-sm text-label-sm text-secondary">Lojas Virtuais &amp; Vendas</span>
+</div>
+</div>
+<div class="p-space-lg w-full md:w-1/2 flex flex-col justify-between">
+<div>
+<div class="inline-flex items-center gap-2 px-2.5 py-0.5 rounded-md bg-surface-container font-label-sm text-label-sm text-text-secondary mb-2">Lojas Virtuais &amp; Vendas</div>
+<h3 class="font-headline-md text-headline-md text-text-primary mb-space-xs">Criação de E-commerces</h3>
+<p class="font-body-md text-body-md text-text-secondary mb-space-md">
+Lojas virtuais premium, seguras e personalizadas com checkout sem atrito, alta taxa de conversão e estrutura escalável para alavancar seu faturamento.
+</p>
+</div>
+<div class="flex items-center justify-between pt-space-sm">
+<div class="flex flex-wrap gap-2">
+<span class="px-2.5 py-1 rounded-md bg-surface-container font-body-sm text-body-sm text-on-surface-variant">Lojas Virtuais</span>
+<span class="px-2.5 py-1 rounded-md bg-surface-container font-body-sm text-body-sm text-on-surface-variant">Checkout Transparente</span>
+<span class="px-2.5 py-1 rounded-md bg-surface-container font-body-sm text-body-sm text-on-surface-variant">Escalabilidade</span>
+</div>
+<span class="material-symbols-outlined text-outline group-hover:text-text-primary transition-colors">arrow_forward</span>
+</div>
+</div></div>
+</div>
+</div>
+</section>
+<!-- ================= CORE DISCIPLINES / BENTO GRID ================= -->
+<section class="w-full px-space-lg lg:px-space-xl py-space-xl" id="services"><div class="max-w-7xl mx-auto" id="disciplinas"><div class="mb-space-xl"><span class="text-outline font-label-sm text-label-sm uppercase tracking-wider">Especialidades</span><h2 class="font-headline-lg text-headline-lg text-text-primary mt-1">Disciplinas que constroem distinção</h2><p class="font-body-md text-body-md text-text-secondary mt-2 max-w-xl">Integramos estratégia, design de interfaces e engenharia técnica profunda em uma equipe unificada de execução.</p></div><div class="grid grid-cols-1 md:grid-cols-2 gap-space-lg w-full"><div class="rounded-xl bg-surface-container-low p-space-lg lg:p-space-xl flex flex-col justify-between transition-all duration-300 hover:bg-surface-container hover:-translate-y-1 shadow-md group border border-surface-container-highest"><div class="space-y-space-md"><div class="flex items-center justify-between"><div class="w-11 h-11 rounded-lg bg-surface-container flex items-center justify-center text-text-primary group-hover:bg-surface-container-high transition-colors"><span class="material-symbols-outlined text-[24px]">layers</span></div><span class="font-label-sm text-label-sm text-outline font-semibold tracking-widest uppercase">01 / DESIGN</span></div><div><h3 class="font-headline-sm text-headline-sm text-text-primary mb-space-xs">Design de Produto &amp; UI/UX</h3><p class="font-body-md text-body-md text-text-secondary">Jornadas completas do usuário, design tokens modulares, microinterações precisas e fluxos complexos sem atrito.</p></div></div><div class="pt-space-lg mt-space-lg border-t border-surface-container-highest flex items-center justify-between"><ul class="space-y-2 font-body-sm text-body-sm text-on-surface-variant"><li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-text-secondary"></span>Design Systems &amp; Tokens</li><li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-text-secondary"></span>Prototipagem Multiplataforma</li><li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-text-secondary"></span>Auditoria de Usabilidade SaaS</li></ul><div class="w-10 h-10 rounded-full bg-surface-container flex items-center justify-center text-outline group-hover:text-text-primary group-hover:bg-surface-container-high transition-colors"><span class="material-symbols-outlined text-[20px]">arrow_forward</span></div></div></div><div class="rounded-xl bg-surface-container-low p-space-lg lg:p-space-xl flex flex-col justify-between transition-all duration-300 hover:bg-surface-container hover:-translate-y-1 shadow-md group border border-surface-container-highest"><div class="space-y-space-md"><div class="flex items-center justify-between"><div class="w-11 h-11 rounded-lg bg-surface-container flex items-center justify-center text-text-primary group-hover:bg-surface-container-high transition-colors"><span class="material-symbols-outlined text-[24px]">code</span></div><span class="font-label-sm text-label-sm text-outline font-semibold tracking-widest uppercase">02 / CÓDIGO</span></div><div><h3 class="font-headline-sm text-headline-sm text-text-primary mb-space-xs">Dev Criativo &amp; WebGL</h3><p class="font-body-md text-body-md text-text-secondary">Engenharia frontend veloz com fidelidade de pixels, animações a 60fps, shaders em WebGL e carregamento sub-segundo.</p></div></div><div class="pt-space-lg mt-space-lg border-t border-surface-container-highest flex items-center justify-between"><ul class="space-y-2 font-body-sm text-body-sm text-on-surface-variant"><li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-text-secondary"></span>Arquitetura Next.js &amp; Tailwind</li><li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-text-secondary"></span>Three.js &amp; Shaders Personalizados</li><li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-text-secondary"></span>Interações Cinéticas Fluidas</li></ul><div class="w-10 h-10 rounded-full bg-surface-container flex items-center justify-center text-outline group-hover:text-text-primary group-hover:bg-surface-container-high transition-colors"><span class="material-symbols-outlined text-[20px]">arrow_forward</span></div></div></div><div class="rounded-xl bg-surface-container-low p-space-lg lg:p-space-xl flex flex-col justify-between transition-all duration-300 hover:bg-surface-container hover:-translate-y-1 shadow-md group border border-surface-container-highest"><div class="space-y-space-md"><div class="flex items-center justify-between"><div class="w-11 h-11 rounded-lg bg-surface-container flex items-center justify-center text-text-primary group-hover:bg-surface-container-high transition-colors"><span class="material-symbols-outlined text-[24px]">auto_awesome</span></div><span class="font-label-sm text-label-sm text-outline font-semibold tracking-widest uppercase">03 / MARCA</span></div><div><h3 class="font-headline-sm text-headline-sm text-text-primary mb-space-xs">Identidade de Marca &amp; Estratégia</h3><p class="font-body-md text-body-md text-text-secondary">Posicionamento distinto, voz tipográfica, diretrizes de movimento e identidade visual para liderar mercados.</p></div></div><div class="pt-space-lg mt-space-lg border-t border-surface-container-highest flex items-center justify-between"><ul class="space-y-2 font-body-sm text-body-sm text-on-surface-variant"><li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-text-secondary"></span>Identidade Visual &amp; Tom de Voz</li><li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-text-secondary"></span>Arte Conceitual Cinética em 3D</li><li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-text-secondary"></span>Direção Tipográfica Sob Medida</li></ul><div class="w-10 h-10 rounded-full bg-surface-container flex items-center justify-center text-outline group-hover:text-text-primary group-hover:bg-surface-container-high transition-colors"><span class="material-symbols-outlined text-[20px]">arrow_forward</span></div></div></div><div class="rounded-xl bg-surface-container-low p-space-lg lg:p-space-xl flex flex-col justify-between transition-all duration-300 hover:bg-surface-container hover:-translate-y-1 shadow-md group border border-surface-container-highest"><div class="space-y-space-md"><div class="flex items-center justify-between"><div class="w-11 h-11 rounded-lg bg-surface-container flex items-center justify-center text-text-primary group-hover:bg-surface-container-high transition-colors"><span class="material-symbols-outlined text-[24px]">neurology</span></div><span class="font-label-sm text-label-sm text-outline font-semibold tracking-widest uppercase">04 / INTELIGÊNCIA</span></div><div><h3 class="font-headline-sm text-headline-sm text-text-primary mb-space-xs">Design de Experiência em IA</h3><p class="font-body-md text-body-md text-text-secondary">Padrões inovadores de agentes, interfaces generativas adaptativas e estados fluidos de transmissão em tempo real.</p></div></div><div class="pt-space-lg mt-space-lg border-t border-surface-container-highest flex items-center justify-between"><ul class="space-y-2 font-body-sm text-body-sm text-on-surface-variant"><li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-text-secondary"></span>Fluxos de Agentes Autônomos</li><li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-text-secondary"></span>Layouts Generativos Dinâmicos</li><li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-text-secondary"></span>UX para Prompts e Telas Interativas</li></ul><div class="w-10 h-10 rounded-full bg-surface-container flex items-center justify-center text-outline group-hover:text-text-primary group-hover:bg-surface-container-high transition-colors"><span class="material-symbols-outlined text-[20px]">arrow_forward</span></div></div></div></div></div></section>
+<!-- ================= STUDIO STATS / PROOF ================= -->
+
+<!-- ================= CLIENT ENDORSEMENTS / TESTIMONIALS ================= -->
+<section class="w-full px-space-lg lg:px-space-xl py-space-xl"><div class="max-w-7xl mx-auto" id="depoimentos"><div class="mb-space-xl text-center flex flex-col items-center"><span class="text-outline font-label-sm text-label-sm uppercase tracking-wider">Depoimentos</span><h2 class="font-headline-lg text-headline-lg text-text-primary mt-1">Apoiado por líderes em constante aceleração</h2></div><div class="grid grid-cols-1 md:grid-cols-3 gap-space-lg"><div class="p-space-lg rounded-xl bg-surface-container-low flex flex-col justify-between shadow-md border border-surface-container-highest"><div class="space-y-space-md"><div class="flex text-text-primary"><span class="material-symbols-outlined text-[18px]">star</span><span class="material-symbols-outlined text-[18px]">star</span><span class="material-symbols-outlined text-[18px]">star</span><span class="material-symbols-outlined text-[18px]">star</span><span class="material-symbols-outlined text-[18px]">star</span></div><div class="inline-flex items-center gap-2 px-2.5 py-0.5 rounded-md bg-surface-container font-label-sm text-label-sm text-text-secondary w-fit">Landing Page de Alta Conversão</div><p class="font-body-md text-body-md text-on-surface italic">“A landing page desenvolvida pela Domingosstudio multiplicou nossa taxa de conversão em mais de 3x nas primeiras semanas. Design persuasivo, carregamento ultrarrápido e arquitetura impecável.”</p></div><div class="pt-space-lg flex items-center gap-space-md border-t border-surface-container-highest mt-space-md"><div class="w-11 h-11 rounded-full bg-surface-container-highest flex items-center justify-center font-headline-sm text-text-primary">L</div><div><p class="font-label-md text-label-md text-text-primary font-semibold">Lucas Silveira</p><p class="font-body-sm text-body-sm text-text-secondary">Founder &amp; Head de Growth</p></div></div></div><div class="p-space-lg rounded-xl bg-surface-container-low flex flex-col justify-between shadow-md border border-surface-container-highest"><div class="space-y-space-md"><div class="flex text-text-primary"><span class="material-symbols-outlined text-[18px]">star</span><span class="material-symbols-outlined text-[18px]">star</span><span class="material-symbols-outlined text-[18px]">star</span><span class="material-symbols-outlined text-[18px]">star</span><span class="material-symbols-outlined text-[18px]">star</span></div><div class="inline-flex items-center gap-2 px-2.5 py-0.5 rounded-md bg-surface-container font-label-sm text-label-sm text-text-secondary w-fit">Site Institucional &amp; Corporativo</div><p class="font-body-md text-body-md text-on-surface italic">“O novo site institucional reposicionou nossa empresa com autoridade imediata no mercado corporativo internacional. A sofisticação estética e atenção aos detalhes superaram todas as expectativas.”</p></div><div class="pt-space-lg flex items-center gap-space-md border-t border-surface-container-highest mt-space-md"><div class="w-11 h-11 rounded-full bg-surface-container-highest flex items-center justify-center font-headline-sm text-text-primary">M</div><div><p class="font-label-md text-label-md text-text-primary font-semibold">Mariana Vasconcelos</p><p class="font-body-sm text-body-sm text-text-secondary">Diretora Executiva, Grupo Vext</p></div></div></div><div class="p-space-lg rounded-xl bg-surface-container-low flex flex-col justify-between shadow-md border border-surface-container-highest"><div class="space-y-space-md"><div class="flex text-text-primary"><span class="material-symbols-outlined text-[18px]">star</span><span class="material-symbols-outlined text-[18px]">star</span><span class="material-symbols-outlined text-[18px]">star</span><span class="material-symbols-outlined text-[18px]">star</span><span class="material-symbols-outlined text-[18px]">star</span></div><div class="inline-flex items-center gap-2 px-2.5 py-0.5 rounded-md bg-surface-container font-label-sm text-label-sm text-text-secondary w-fit">E-commerce de Alta Performance</div><p class="font-body-md text-body-md text-on-surface italic">“Nossa loja virtual teve um salto impressionante de faturamento após o novo checkout e UX impecável. Navegação limpa, sem atrito e com uma estética premium que encanta nossos clientes.”</p></div><div class="pt-space-lg flex items-center gap-space-md border-t border-surface-container-highest mt-space-md"><div class="w-11 h-11 rounded-full bg-surface-container-highest flex items-center justify-center font-headline-sm text-text-primary">G</div><div><p class="font-label-md text-label-md text-text-primary font-semibold">Gabriel Fontes</p><p class="font-body-sm text-body-sm text-text-secondary">CEO, Lumina Goods</p></div></div></div></div></div></section>
+<!-- ================= ENGAGEMENT MODELS / PRICING ================= -->
+
+<!-- ================= FINAL HIGH-IMPACT CTA ================= -->
+<section class="w-full px-space-lg lg:px-space-xl py-28 relative" id="contact"><div class="max-w-4xl mx-auto rounded-xl bg-gradient-to-b from-surface-container-low to-background-secondary p-space-lg md:p-16 text-center relative overflow-hidden shadow-2xl"><!-- Ambient central glow --><div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-primary-container/25 blur-[120px] pointer-events-none rounded-full"></div><div class="relative z-10 flex flex-col items-center"><span class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-surface-container-high border border-surface-container-highest text-text-secondary font-label-sm text-label-sm mb-space-md"><span class="w-2 h-2 rounded-full bg-text-primary animate-pulse"></span>Agendando projetos para o próximo mês</span><h2 class="font-headline-lg text-headline-lg md:text-[44px] md:leading-[1.15] text-text-primary max-w-2xl mb-space-md">Tem uma visão ambiciosa?<br><span class="text-text-secondary">Vamos torná-la realidade juntos.</span></h2><p class="font-body-lg text-body-lg text-text-secondary max-w-lg mb-space-xl">Reserve uma conversa consultiva de 25 minutos com nossos sócios para avaliar escopo, cronograma e diretrizes arquiteturais.</p><!-- Quick Interaction Form/Trigger --><div class="w-full max-w-md flex flex-col sm:flex-row gap-space-xs mb-space-md"><input class="w-full px-space-md py-3 rounded-lg bg-surface-container-lowest text-text-primary placeholder:text-outline font-body-sm text-body-sm focus:outline-none focus:bg-surface-container-high transition-colors" placeholder="fundador@suaempresa.com.br" type="email"><button class="px-space-lg py-3 rounded-lg bg-primary-container text-text-primary font-label-md text-label-md font-semibold hover:bg-primary hover:text-on-primary hover:scale-[1.02] transition-all whitespace-nowrap shadow-[0_0_20px_rgba(0,102,255,0.35)]">Agendar Conversa</button></div><p class="font-body-sm text-body-sm text-outline">Ou fale diretamente pelo e-mail <a class="text-text-primary underline hover:text-text-secondary transition-colors" href="mailto:contato@domingosstudio.com">contato@domingosstudio.com</a></p></div></div></section>
+</div></main><footer class="w-full bg-background-secondary"><div class="w-full px-space-lg lg:px-space-xl py-space-xl"><div class="grid grid-cols-1 md:grid-cols-12 gap-space-xl pb-space-xl"><div class="md:col-span-5 space-y-space-md"><div class="flex items-center gap-space-sm"><a href="#" class="inline-flex items-center gap-2.5"><div class="w-8 h-8 rounded bg-black border border-surface-container-highest flex items-center justify-center shadow-sm flex-shrink-0"><span class="text-text-primary font-bold text-[15px] font-headline-sm leading-none select-none">D</span></div><div class="flex flex-col justify-center leading-none"><div class="flex items-center gap-1 font-headline-sm text-[13px] font-bold tracking-wider uppercase text-text-primary"><span class="tracking-normal">DOMINGOS</span><span class="text-outline font-semibold">//</span><span class="">STUDIO</span></div><span class="text-[8.5px] font-medium tracking-[0.22em] text-outline uppercase mt-0.5">DIGITAL ARCHITECTURE</span></div></a><span class="px-space-sm py-space-xs rounded-full bg-surface-container border border-surface-container-highest text-text-secondary font-label-sm text-label-sm">v3.4</span></div><p class="font-body-md text-body-md text-text-secondary max-w-sm">Engenharia digital de alta performance e design interativo visionário para produtos e marcas inovadoras.</p><div class="inline-flex items-center gap-space-sm px-space-md py-space-xs rounded-full bg-surface-container-lowest border border-surface-container-highest"><span class="w-2 h-2 rounded-full bg-text-primary"></span><span class="font-label-sm text-label-sm text-text-secondary">Vagas abertas para novos projetos</span></div></div><div class="md:col-span-3 space-y-space-sm"><span class="font-label-md text-label-md uppercase tracking-wider text-text-primary">Navegação</span><ul class="space-y-space-xs font-body-sm text-body-sm text-on-surface-variant"><li class=""><a class="hover:text-secondary transition-colors" data-path="services" href="#services">Serviços &amp; Soluções</a></li><li class=""><a class="hover:text-secondary transition-colors" data-path="work" href="#work">Portfólio Selecionado</a></li><li class=""><a class="hover:text-secondary transition-colors" data-path="process" href="#disciplinas">Especialidades</a></li><li class=""><a class="hover:text-secondary transition-colors" data-path="about" href="#depoimentos">Depoimentos</a></li><li class=""><a class="hover:text-secondary transition-colors" data-path="contact" href="#contact">Contato</a></li></ul></div><div class="md:col-span-4 space-y-space-md"><span class="font-label-md text-label-md uppercase tracking-wider text-text-primary">Boletim do Studio</span><p class="font-body-sm text-body-sm text-text-secondary">Receba insights periódicos sobre design systems, performance web e tecnologias criativas.</p><div class="flex flex-col sm:flex-row gap-space-xs"><div class="relative flex-1"><input class="w-full px-space-md py-space-sm rounded-lg bg-surface-container-lowest text-on-surface placeholder:text-outline font-body-sm text-body-sm focus:outline-none focus:bg-surface-container-low transition-all" placeholder="Seu e-mail profissional" type="email"></div><button class="px-space-md py-space-sm rounded-lg bg-primary-container text-text-primary font-label-sm text-label-sm font-semibold hover:bg-primary hover:text-on-primary hover:scale-[1.02] shadow-[0_0_15px_rgba(0,102,255,0.3)] transition-all whitespace-nowrap">Assinar</button></div></div></div><div class="pt-space-lg flex flex-col md:flex-row items-center justify-between gap-space-md"><div class="flex items-center gap-space-lg font-body-sm text-body-sm text-text-secondary"><span class="">© 2025 Domingosstudio Inc. Todos os direitos reservados.</span><a class="hover:text-on-surface transition-colors" data-path="privacy-policy" href="#">Política de Privacidade</a><a class="hover:text-on-surface transition-colors" data-path="terms-of-service" href="#">Termos de Uso</a></div><div class="flex items-center gap-space-md"><a class="px-space-sm py-space-xs rounded-lg bg-surface-container text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface font-label-sm text-label-sm transition-colors" href="#">Twitter/X</a><a class="px-space-sm py-space-xs rounded-lg bg-surface-container text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface font-label-sm text-label-sm transition-colors" href="#">GitHub</a><a class="px-space-sm py-space-xs rounded-lg bg-surface-container text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface font-label-sm text-label-sm transition-colors" href="#">Dribbble</a><a class="px-space-sm py-space-xs rounded-lg bg-surface-container text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface font-label-sm text-label-sm transition-colors" href="#">LinkedIn</a></div></div></div></footer>
+
+</body></html>
